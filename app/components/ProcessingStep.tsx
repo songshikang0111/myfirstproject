@@ -4,14 +4,14 @@ import * as XLSX from 'xlsx'
 
 interface ProcessingStepProps {
   file: File | null
-  requirement: string
-  sampleResults: string[]
+  //requirement: string 
+  //sampleResults: string[]
 }
 
 export default function ProcessingStep({
   file,
-  requirement,
-  sampleResults
+  //requirement,
+  //sampleResults
 }: ProcessingStepProps) {
   const [totalQueries, setTotalQueries] = useState(0)
   const [currentQuery, setCurrentQuery] = useState(0)

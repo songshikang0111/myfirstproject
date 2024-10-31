@@ -57,8 +57,8 @@ export default function DashboardPage() {
         {currentStep === 3 && (
           <ProcessingStep
             file={uploadedFile}
-            requirement={requirement}
-            sampleResults={sampleResults}
+            //requirement={requirement}
+            //sampleResults={sampleResults}
           />
         )}
       </div>
